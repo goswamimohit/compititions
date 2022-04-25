@@ -70,7 +70,7 @@ After doing feature extraction and enginering next step is machine learning.
 
 -  Xgboost - does not perform well.
 -  FbProphet -perform well as compare to XgBoost but poorer in compare to catboost.
--  CatBoostRegressor - Perform good intially , so For getting better result ,I train Hyperparameter Tunning with help of Grid Search Cv.The parameter finnaly used :
+-  CatBoostRegressor - Perform good intially , so For getting better result ,I decided to go for Hyperparameter Tunning with help of Grid Search Cv.The parameter finnaly used for Hyperparameter are following :
   - terations = 200 
   - l2_leaf_reg = 0.5
   - max_depth = 8
