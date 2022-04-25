@@ -60,14 +60,13 @@
   --------------------------------------------------------------
 
 
-### ML Approach
+## ML Approach
 ----------------------------------------
 -----------------------------------------------
 
 After doing feature extraction and enginering next step is machine learning.
 
-- Cross Validation = Divided ny data into further train and test dataset.
-
+-  Cross Validation = Divided ny data into further train and test dataset.
 -  Xgboost - does not perform well.
 -  FbProphet -perform well as compare to XgBoost but poorer in compare to catboost.
 -  CatBoostRegressor - Perform good intially , so For getting better result ,I decided to go for Hyperparameter Tunning with help of Grid Search Cv.The parameter finnaly used for Hyperparameter are following :
@@ -76,11 +75,14 @@ After doing feature extraction and enginering next step is machine learning.
   - max_depth = 8
   - learning_rate = 0.1  
   - loss_function ='RMSE"
+
+### Score
+------------------------------
  - Model Score on validation Set - bestTest = 32.43745959
  - Public Score = 33.7218417593689	
  - Private Score = 33.58958531422
  
- ### Final Result
+ ## Final Result
  ----------------------------------------
  Private Leaderboard - 25
  Public Leaderboard - 112
